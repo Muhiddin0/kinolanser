@@ -1,0 +1,327 @@
+span.sakura-item {
+  position: fixed;
+  top: -10%;
+  left: 0;
+  width: 0.8vw;
+  height: 0.4vw;
+  border-radius: 5% 80% 10% 80%;
+  background-color: #ffb6c1;
+  z-index: 9999;
+}
+
+/* add animation */
+.sakura-item:nth-child(2n + 1) {
+  animation: sakura-anim-1 10s 0s linear infinite;
+}
+
+.sakura-item:nth-child(2n + 2) {
+  animation: sakura-anim-2 10s 0s linear infinite;
+}
+
+/* side position */
+.sakura-item:nth-child(1) {
+  left: 0%;
+}
+
+.sakura .sakura-item:nth-child(2) {
+  left: 2%;
+}
+
+.sakura-item:nth-child(3) {
+  left: 4%;
+}
+
+.sakura-item:nth-child(4) {
+  left: 6%;
+}
+
+.sakura-item:nth-child(5) {
+  left: 8%;
+}
+
+.sakura-item:nth-child(6) {
+  left: 10%;
+}
+
+.sakura-item:nth-child(7) {
+  left: 12%;
+}
+
+.sakura-item:nth-child(8) {
+  left: 14%;
+}
+
+.sakura-item:nth-child(9) {
+  left: 16%;
+}
+
+.sakura-item:nth-child(10) {
+  left: 18%;
+}
+
+.sakura-item:nth-child(11) {
+  left: 20%;
+}
+
+.sakura-item:nth-child(12) {
+  left: 22%;
+}
+
+.sakura-item:nth-child(13) {
+  left: 24%;
+}
+
+.sakura-item:nth-child(14) {
+  left: 26%;
+}
+
+.sakura-item:nth-child(15) {
+  left: 28%;
+}
+
+.sakura-item:nth-child(16) {
+  left: 30%;
+}
+
+.sakura-item:nth-child(17) {
+  left: 32%;
+}
+
+.sakura-item:nth-child(18) {
+  left: 34%;
+}
+
+.sakura-item:nth-child(19) {
+  left: 36%;
+}
+
+.sakura-item:nth-child(20) {
+  left: 38%;
+}
+
+.sakura-item:nth-child(21) {
+  left: 40%;
+}
+
+.sakura-item:nth-child(22) {
+  left: 42%;
+}
+
+.sakura-item:nth-child(23) {
+  left: 44%;
+}
+
+.sakura-item:nth-child(24) {
+  left: 46%;
+}
+
+.sakura-item:nth-child(25) {
+  left: 48%;
+}
+
+.sakura-item:nth-child(26) {
+  left: 50%;
+}
+
+.sakura-item:nth-child(27) {
+  left: 52%;
+}
+
+.sakura-item:nth-child(28) {
+  left: 54%;
+}
+
+.sakura-item:nth-child(29) {
+  left: 56%;
+}
+
+.sakura-item:nth-child(30) {
+  left: 58%;
+}
+
+.sakura-item:nth-child(31) {
+  left: 60%;
+}
+
+.sakura-item:nth-child(32) {
+  left: 62%;
+}
+
+.sakura-item:nth-child(33) {
+  left: 64%;
+}
+
+.sakura-item:nth-child(34) {
+  left: 66%;
+}
+
+.sakura-item:nth-child(35) {
+  left: 68%;
+}
+
+.sakura-item:nth-child(36) {
+  left: 70%;
+}
+
+.sakura-item:nth-child(37) {
+  left: 72%;
+}
+
+.sakura-item:nth-child(38) {
+  left: 74%;
+}
+
+.sakura-item:nth-child(39) {
+  left: 76%;
+}
+
+.sakura-item:nth-child(40) {
+  left: 78%;
+}
+
+.sakura-item:nth-child(41) {
+  left: 80%;
+}
+
+.sakura-item:nth-child(42) {
+  left: 82%;
+}
+
+.sakura-item:nth-child(43) {
+  left: 84%;
+}
+
+.sakura-item:nth-child(44) {
+  left: 86%;
+}
+
+.sakura-item:nth-child(45) {
+  left: 88%;
+}
+
+.sakura-item:nth-child(46) {
+  left: 90%;
+}
+
+.sakura-item:nth-child(47) {
+  left: 92%;
+}
+
+.sakura-item:nth-child(48) {
+  left: 94%;
+}
+
+.sakura-item:nth-child(49) {
+  left: 96%;
+}
+
+.sakura-item:nth-child(50) {
+  left: 98%;
+}
+
+/* size */
+.sakura-item:nth-child(3n + 1) {
+  width: 1vw;
+  height: 0.5vw;
+}
+
+.sakura-item:nth-child(3n + 2) {
+  width: 0.8vw;
+  height: 0.4vw;
+}
+
+.sakura-item:nth-child(3n + 3) {
+  width: 0.6vw;
+  height: 0.3vw;
+}
+
+/* animation-duration */
+.sakura-item:nth-child(4n + 1) {
+  animation-duration: 5s;
+}
+
+.sakura-item:nth-child(4n + 2) {
+  animation-duration: 12s;
+}
+
+.sakura-item:nth-child(4n + 3) {
+  animation-duration: 8s;
+}
+
+.sakura-item:nth-child(4n + 4) {
+  animation-duration: 6s;
+}
+
+/* animation-delay */
+.sakura-item:nth-child(11n + 1) {
+  animation-delay: 0s;
+}
+
+.sakura-item:nth-child(11n + 2) {
+  animation-delay: 9s;
+}
+
+.sakura-item:nth-child(11n + 3) {
+  animation-delay: 2s;
+}
+
+.sakura-item:nth-child(11n + 4) {
+  animation-delay: 5s;
+}
+
+.sakura-item:nth-child(11n + 5) {
+  animation-delay: 6s;
+}
+
+.sakura-item:nth-child(11n + 6) {
+  animation-delay: 7s;
+}
+
+.sakura-item:nth-child(11n + 7) {
+  animation-delay: 3s;
+}
+
+.sakura-item:nth-child(11n + 8) {
+  animation-delay: 1s;
+}
+
+.sakura-item:nth-child(11n + 9) {
+  animation-delay: 2s;
+}
+
+.sakura-item:nth-child(11n + 10) {
+  animation-delay: 11s;
+}
+
+.sakura-item:nth-child(11n + 11) {
+  animation-delay: 10s;
+}
+
+/* animation */
+@keyframes sakura-anim-1 {
+  0% {
+    top: -10%;
+    transform: translateX(0) rotateX(0) rotateY(0);
+  }
+
+  100% {
+    top: 100%;
+    transform: translateX(15vw) rotateX(180deg) rotateY(360deg);
+  }
+}
+
+@keyframes sakura-anim-2 {
+  0% {
+    top: -10%;
+    transform: translateX(0);
+  }
+
+  100% {
+    top: 100%;
+    transform: translateX(-15vw) rotateX(180deg) rotateY(360deg);
+  }
+}
+html,
+body {
+  overflow-x: hidden;
+}

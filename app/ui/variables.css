@@ -1,0 +1,438 @@
+:root {
+  --border-10: 10px;
+  /* -------------------- gradient -------------------- */
+
+  /* -------------------- colors -------------------- */
+  --white: #fff;
+  --orange: #fbdb8a;
+  --orange-dark: #cc9940;
+
+  /* -------------------- shadow -------------------- */
+  --shadow-1: 0px 8px 32px 0px rgba(38, 38, 38, 0.2);
+}
+
+/* -------------------- typhography xs -------------------- */
+@media (min-width: 320px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 36px;
+    --typography1-400: normal 400 36px;
+    --typography1-500: normal 500 36px;
+    --typography1-700: normal 700 36px;
+
+    /* typography2 */
+    --typography2-300: normal 300 28px;
+    --typography2-400: normal 400 28px;
+    --typography2-500: normal 500 28px;
+    --typography2-700: normal 700 28px;
+
+    /* typography3 */
+    --typography3-300: normal 300 24px;
+    --typography3-400: normal 400 24px;
+    --typography3-500: normal 500 24px;
+    --typography3-700: normal 700 24px;
+
+    /* typography4 */
+    --typography4-300: normal 300 18px;
+    --typography4-400: normal 400 18px;
+    --typography4-500: normal 500 18px;
+    --typography4-700: normal 700 18px;
+
+    /* typography5 */
+    --typography5-300: normal 300 16px;
+    --typography5-400: normal 400 16px;
+    --typography5-500: normal 500 16px;
+    --typography5-700: normal 700 16px;
+
+    /* typography6 */
+    --typography6-300: normal 300 14px;
+    --typography6-400: normal 400 14px;
+    --typography6-500: normal 500 14px;
+    --typography6-700: normal 700 14px;
+
+    /* typography7 */
+    --typography7-300: normal 300 12px;
+    --typography7-400: normal 400 12px;
+    --typography7-500: normal 500 12px;
+    --typography7-700: normal 700 12px;
+
+    /* typography8 */
+    --typography8-300: normal 300 10px;
+    --typography8-400: normal 400 10px;
+    --typography8-500: normal 500 10px;
+    --typography8-700: normal 700 10px;
+
+    /* typography9 */
+    --typography9-300: normal 300 8px;
+    --typography9-400: normal 400 8px;
+    --typography9-500: normal 500 8px;
+    --typography9-700: normal 700 8px;
+
+    /* typography10 */
+    --typography10-300: normal 300 6px;
+    --typography10-400: normal 400 6px;
+    --typography10-500: normal 500 6px;
+    --typography10-700: normal 700 6px;
+
+    /* typography11 */
+    --typography11-300: normal 300 4px;
+    --typography11-400: normal 400 4px;
+    --typography11-500: normal 500 4px;
+    --typography11-700: normal 700 4px;
+  }
+}
+
+/* -------------------- typhography sm -------------------- */
+@media (min-width: 576px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 38px;
+    --typography1-400: normal 400 38px;
+    --typography1-500: normal 500 38px;
+    --typography1-700: normal 700 38px;
+
+    /* typography2 */
+    --typography2-300: normal 300 32px;
+    --typography2-400: normal 400 32px;
+    --typography2-500: normal 500 32px;
+    --typography2-700: normal 700 32px;
+
+    /* typography3 */
+    --typography3-300: normal 300 28px;
+    --typography3-400: normal 400 28px;
+    --typography3-500: normal 500 28px;
+    --typography3-700: normal 700 28px;
+
+    /* typography4 */
+    --typography4-300: normal 300 20px;
+    --typography4-400: normal 400 20px;
+    --typography4-500: normal 500 20px;
+    --typography4-700: normal 700 20px;
+
+    /* typography5 */
+    --typography5-300: normal 300 18px;
+    --typography5-400: normal 400 18px;
+    --typography5-500: normal 500 18px;
+    --typography5-700: normal 700 18px;
+
+    /* typography6 */
+    --typography6-300: normal 300 16px;
+    --typography6-400: normal 400 16px;
+    --typography6-500: normal 500 16px;
+    --typography6-700: normal 700 16px;
+
+    /* typography7 */
+    --typography7-300: normal 300 14px;
+    --typography7-400: normal 400 14px;
+    --typography7-500: normal 500 14px;
+    --typography7-700: normal 700 14px;
+
+    /* typography8 */
+    --typography8-300: normal 300 10px;
+    --typography8-400: normal 400 10px;
+    --typography8-500: normal 500 10px;
+    --typography8-700: normal 700 10px;
+
+    /* typography9 */
+    --typography9-300: normal 300 8px;
+    --typography9-400: normal 400 8px;
+    --typography9-500: normal 500 8px;
+    --typography9-700: normal 700 8px;
+
+    /* typography10 */
+    --typography10-300: normal 300 6px;
+    --typography10-400: normal 400 6px;
+    --typography10-500: normal 500 6px;
+    --typography10-700: normal 700 6px;
+
+    /* typography11 */
+    --typography11-300: normal 300 4px;
+    --typography11-400: normal 400 4px;
+    --typography11-500: normal 500 4px;
+    --typography11-700: normal 700 4px;
+  }
+}
+
+/* -------------------- typhography md -------------------- */
+@media (min-width: 768px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 42px;
+    --typography1-400: normal 400 42px;
+    --typography1-500: normal 500 42px;
+    --typography1-700: normal 700 42px;
+
+    /* typography2 */
+    --typography2-300: normal 300 38px;
+    --typography2-400: normal 400 38px;
+    --typography2-500: normal 500 38px;
+    --typography2-700: normal 700 38px;
+
+    /* typography3 */
+    --typography3-300: normal 300 32px;
+    --typography3-400: normal 400 32px;
+    --typography3-500: normal 500 32px;
+    --typography3-700: normal 700 32px;
+
+    /* typography4 */
+    --typography4-300: normal 300 24px;
+    --typography4-400: normal 400 24px;
+    --typography4-500: normal 500 24px;
+    --typography4-700: normal 700 24px;
+
+    /* typography5 */
+    --typography5-300: normal 300 20px;
+    --typography5-400: normal 400 20px;
+    --typography5-500: normal 500 20px;
+    --typography5-700: normal 700 20px;
+
+    /* typography6 */
+    --typography6-300: normal 300 18px;
+    --typography6-400: normal 400 18px;
+    --typography6-500: normal 500 18px;
+    --typography6-700: normal 700 18px;
+
+    /* typography7 */
+    --typography7-300: normal 300 16px;
+    --typography7-400: normal 400 16px;
+    --typography7-500: normal 500 16px;
+    --typography7-700: normal 700 16px;
+
+    /* typography8 */
+    --typography8-300: normal 300 12px;
+    --typography8-400: normal 400 12px;
+    --typography8-500: normal 500 12px;
+    --typography8-700: normal 700 12px;
+
+    /* typography9 */
+    --typography9-300: normal 300 10px;
+    --typography9-400: normal 400 10px;
+    --typography9-500: normal 500 10px;
+    --typography9-700: normal 700 10px;
+
+    /* typography10 */
+    --typography10-300: normal 300 8px;
+    --typography10-400: normal 400 8px;
+    --typography10-500: normal 500 8px;
+    --typography10-700: normal 700 8px;
+
+    /* typography11 */
+    --typography11-300: normal 300 6px;
+    --typography11-400: normal 400 6px;
+    --typography11-500: normal 500 6px;
+    --typography11-700: normal 700 6px;
+  }
+}
+
+/* -------------------- typhography lg -------------------- */
+@media (min-width: 992px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 48px;
+    --typography1-400: normal 400 48px;
+    --typography1-500: normal 500 48px;
+    --typography1-700: normal 700 48px;
+
+    /* typography2 */
+    --typography2-300: normal 300 42px;
+    --typography2-400: normal 400 42px;
+    --typography2-500: normal 500 42px;
+    --typography2-700: normal 700 42px;
+
+    /* typography3 */
+    --typography3-300: normal 300 36px;
+    --typography3-400: normal 400 36px;
+    --typography3-500: normal 500 36px;
+    --typography3-700: normal 700 36px;
+
+    /* typography4 */
+    --typography4-300: normal 300 28px;
+    --typography4-400: normal 400 28px;
+    --typography4-500: normal 500 28px;
+    --typography4-700: normal 700 28px;
+
+    /* typography5 */
+    --typography5-300: normal 300 22px;
+    --typography5-400: normal 400 22px;
+    --typography5-500: normal 500 22px;
+    --typography5-700: normal 700 22px;
+
+    /* typography6 */
+    --typography6-300: normal 300 20px;
+    --typography6-400: normal 400 20px;
+    --typography6-500: normal 500 20px;
+    --typography6-700: normal 700 20px;
+
+    /* typography7 */
+    --typography7-300: normal 300 18px;
+    --typography7-400: normal 400 18px;
+    --typography7-500: normal 500 18px;
+    --typography7-700: normal 700 18px;
+
+    /* typography8 */
+    --typography8-300: normal 300 14px;
+    --typography8-400: normal 400 14px;
+    --typography8-500: normal 500 14px;
+    --typography8-700: normal 700 14px;
+
+    /* typography9 */
+    --typography9-300: normal 300 12px;
+    --typography9-400: normal 400 12px;
+    --typography9-500: normal 500 12px;
+    --typography9-700: normal 700 12px;
+
+    /* typography10 */
+    --typography10-300: normal 300 10px;
+    --typography10-400: normal 400 10px;
+    --typography10-500: normal 500 10px;
+    --typography10-700: normal 700 10px;
+
+    /* typography11 */
+    --typography11-300: normal 300 8px;
+    --typography11-400: normal 400 8px;
+    --typography11-500: normal 500 8px;
+    --typography11-700: normal 700 8px;
+  }
+}
+
+/* -------------------- typhography xl -------------------- */
+@media (min-width: 1200px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 64px;
+    --typography1-400: normal 400 64px;
+    --typography1-500: normal 500 64px;
+    --typography1-700: normal 700 64px;
+
+    /* typography2 */
+    --typography2-300: normal 300 48px;
+    --typography2-400: normal 400 48px;
+    --typography2-500: normal 500 48px;
+    --typography2-700: normal 700 48px;
+
+    /* typography3 */
+    --typography3-300: normal 300 42px;
+    --typography3-400: normal 400 42px;
+    --typography3-500: normal 500 42px;
+    --typography3-700: normal 700 42px;
+
+    /* typography4 */
+    --typography4-300: normal 300 32px;
+    --typography4-400: normal 400 32px;
+    --typography4-500: normal 500 32px;
+    --typography4-700: normal 700 32px;
+
+    /* typography5 */
+    --typography5-300: normal 300 24px;
+    --typography5-400: normal 400 24px;
+    --typography5-500: normal 500 24px;
+    --typography5-700: normal 700 24px;
+
+    /* typography6 */
+    --typography6-300: normal 300 22px;
+    --typography6-400: normal 400 22px;
+    --typography6-500: normal 500 22px;
+    --typography6-700: normal 700 22px;
+
+    /* typography7 */
+    --typography7-300: normal 300 18px;
+    --typography7-400: normal 400 18px;
+    --typography7-500: normal 500 18px;
+    --typography7-700: normal 700 18px;
+
+    /* typography8 */
+    --typography8-300: normal 300 16px;
+    --typography8-400: normal 400 16px;
+    --typography8-500: normal 500 16px;
+    --typography8-700: normal 700 16px;
+
+    /* typography9 */
+    --typography9-300: normal 300 14px;
+    --typography9-400: normal 400 14px;
+    --typography9-500: normal 500 14px;
+    --typography9-700: normal 700 14px;
+
+    /* typography10 */
+    --typography10-300: normal 300 12px;
+    --typography10-400: normal 400 12px;
+    --typography10-500: normal 500 12px;
+    --typography10-700: normal 700 12px;
+
+    /* typography11 */
+    --typography11-300: normal 300 10px;
+    --typography11-400: normal 400 10px;
+    --typography11-500: normal 500 10px;
+    --typography11-700: normal 700 10px;
+  }
+}
+
+/* -------------------- typhography 2xl -------------------- */
+@media (min-width: 1440px) {
+  :root {
+    /* typography1 */
+    --typography1-300: normal 300 72px;
+    --typography1-400: normal 400 72px;
+    --typography1-500: normal 500 72px;
+    --typography1-700: normal 700 72px;
+
+    /* typography2 */
+    --typography2-300: normal 300 64px;
+    --typography2-400: normal 400 64px;
+    --typography2-500: normal 500 64px;
+    --typography2-700: normal 700 64px;
+
+    /* typography3 */
+    --typography3-300: normal 300 48px;
+    --typography3-400: normal 400 48px;
+    --typography3-500: normal 500 48px;
+    --typography3-700: normal 700 48px;
+
+    /* typography4 */
+    --typography4-300: normal 300 36px;
+    --typography4-400: normal 400 36px;
+    --typography4-500: normal 500 36px;
+    --typography4-700: normal 700 36px;
+
+    /* typography5 */
+    --typography5-300: normal 300 28px;
+    --typography5-400: normal 400 28px;
+    --typography5-500: normal 500 28px;
+    --typography5-700: normal 700 28px;
+
+    /* typography6 */
+    --typography6-300: normal 300 24px;
+    --typography6-400: normal 400 24px;
+    --typography6-500: normal 500 24px;
+    --typography6-700: normal 700 24px;
+
+    /* typography7 */
+    --typography7-300: normal 300 20px;
+    --typography7-400: normal 400 20px;
+    --typography7-500: normal 500 20px;
+    --typography7-700: normal 700 20px;
+
+    /* typography8 */
+    --typography8-300: normal 300 18px;
+    --typography8-400: normal 400 18px;
+    --typography8-500: normal 500 18px;
+    --typography8-700: normal 700 18px;
+
+    /* typography9 */
+    --typography9-300: normal 300 16px;
+    --typography9-400: normal 400 16px;
+    --typography9-500: normal 500 16px;
+    --typography9-700: normal 700 16px;
+
+    /* typography10 */
+    --typography10-300: normal 300 14px;
+    --typography10-400: normal 400 14px;
+    --typography10-500: normal 500 14px;
+    --typography10-700: normal 700 14px;
+
+    /* typography11 */
+    --typography11-300: normal 300 12px;
+    --typography11-400: normal 400 12px;
+    --typography11-500: normal 500 12px;
+    --typography11-700: normal 700 12px;
+  }
+}
